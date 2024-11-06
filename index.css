@@ -1,0 +1,17 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #474242;
+    margin: 0;
+    padding: 0;
+    }
+
+.logo{
+    position: fixed;
+    height: 80px;
+    background-color: #DE5153;
+    width: 100%;
+}
+
