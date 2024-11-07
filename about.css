@@ -50,7 +50,7 @@ main{
     margin-top: 5rem;
 }
 
-.about-heading{
+.about-heading {
     text-align: center;
     color: white;
     padding-top: 6.25rem;
@@ -62,8 +62,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
-    color: white;
+    gap: 4rem;
+    margin-bottom: 60px;
+    padding: 20px;
 }
 
 
@@ -85,8 +86,49 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 4rem;
+    margin: 60px 0;
+    padding: 20px;
+}
+
+.award-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.award-image:hover {
+    transform: scale(1.02);
+}
+
+.awards-text-box {
+    background-color: rgba(33, 33, 33, 0.95);
+    padding: 35px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.awards-text-box:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: #D2625B;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1rem;
     color: white;
+    opacity: 0.9;
 }
 
 .award-image{
@@ -127,27 +169,60 @@ iframe {
     transition: transform 0.2s ease-in-out;
 }
 
-iframe:hover {
-    transform: scale(1.02);
+@media screen and (max-width: 1200px) {
+    .albums {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-/*footer*/
-.footer{
-    bottom: 0;
+@media screen and (max-width: 768px) {
+    .albums {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    iframe {
+        height: 360px;
+    }
+
+    .social-media a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .history, .awards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .awards {
+        flex-direction: column-reverse;
+    }
+}
+
+/*Footer*/
+.footer {
     width: 100%;
     background-color: rgb(33, 33, 33);
+    overflow-x: hidden;
 }
 
-.social-media{
+.social-media {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
-.social-media a{
+.social-media a {
     display: flex;
     align-items: center;
-    text-align: center;
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
