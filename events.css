@@ -1,13 +1,18 @@
 body {
-    position: relative;
-    width: 1728px;
-    height: 1359px;
-    background: #DE5153;
-}
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://preview.redd.it/2d5u2gwhe2wc1.png?auto=webp&s=871f79cd16b7c8e0e36d6c11e350e6d317ef41f2);
+    margin: 0;
+    padding: 0;
+    }
+/*header*/
 .navigation{
+    position: fixed;
     display: flex;
     background-color: white;
+    width: 100%;
+    top: 0;
     justify-content: space-between;
     background-color: rgba(210, 98, 91, 0.9);
 
@@ -33,17 +38,67 @@ body {
     color: black;
     text-decoration: none;
     font-size: 20px;
-    padding: 15px;
-    margin: 15px;
+    padding: 25px;
 }
 
-
+.menu a:hover{
+    background-color: rgba(250, 235, 215, 0.093);
+}
 /*footer*/
-.footer{
-    position: fixed;
+footer {
     bottom: 0;
     width: 100%;
-    background-color: rgb(108 186 205);
-    height: 80px;
+    background-color: rgb(33, 33, 33);
 }
 
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+/*main*/
+.main h1{    
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.events {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+    .event-container {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 48px;
+        color: #FFFFFF;
+        background-color: rgba(0, 0, 0, 1);
+        padding: 20px;
+        border-radius: 10px;
+
+    }
