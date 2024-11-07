@@ -5,7 +5,7 @@ body {
     background-image: url(https://preview.redd.it/2d5u2gwhe2wc1.png?auto=webp&s=871f79cd16b7c8e0e36d6c11e350e6d317ef41f2);
     margin: 0;
     padding: 0;
-    }
+}
 
 .navigation{
     position: fixed;
@@ -71,10 +71,70 @@ body {
     padding: 25px;
 }
 
-
 .fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto; 
+}
+
+.section h2 {
+    margin: 20px 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+}
+
+.history-content, .awards-content, .songs-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.history-content, .awards-content {
+    min-height: 376px;
+}
+
+.songs-content {
+    min-height: 428px;
+}
+
+.awards-content {
+    flex-direction: row-reverse;
+}
+
+.awards-image {
+    width: 669px;
+    height: 443px;
+    top: 689px;
+    left: 67px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.content p, .content ul {
+    flex: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    text-align: left;
+}
+
+.content img {
+    max-width: 50%; 
+    height: auto;
+    border-radius: 5px;
+}
