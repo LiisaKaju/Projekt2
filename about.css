@@ -1,0 +1,162 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/background-imagine-dragons.png);
+    margin: 0;
+    padding: 0;
+    }
+
+.navigation{
+    position: fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    background-color: rgba(210, 98, 91, 0.9);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.menu a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.menu a:hover{
+    background-color: rgba(250, 235, 215, 0.093);
+}
+
+/*main*/
+
+main{
+    margin-top: 200px;
+}
+
+.about-heading{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.history{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    color: white;
+}
+
+
+.history-text-box{
+    background-color: rgb(33, 33, 33);
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.history-image{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.awards{
+    Padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    color: white;
+}
+
+.award-image{
+    height: 400px;
+    border-radius: 10px;
+}
+
+.awards-text-box{
+    background-color: rgb(33, 33, 33);
+    padding: 25px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.albums-heading{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.albums {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, minmax(250px, 300px));
+    justify-content: center;
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+iframe {
+    width: 100%;
+    height: 380px;
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+/*footer*/
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+

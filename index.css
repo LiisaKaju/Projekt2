@@ -1,16 +1,18 @@
 body {
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-color: #474242;
+    background-image: url(https://preview.redd.it/2d5u2gwhe2wc1.png?auto=webp&s=871f79cd16b7c8e0e36d6c11e350e6d317ef41f2);
     margin: 0;
     padding: 0;
     }
 
 .navigation{
+    position: fixed;
     display: flex;
     background-color: white;
+    width: 100%;
+    top: 0;
     justify-content: space-between;
     background-color: rgba(210, 98, 91, 0.9);
 
@@ -36,18 +38,21 @@ body {
     color: black;
     text-decoration: none;
     font-size: 20px;
-    padding: 15px;
-    margin: 15px;
+    padding: 25px;
 }
 
+.menu a:hover{
+    background-color: rgba(250, 235, 215, 0.093);
+}
+
+/*main*/
 
 /*footer*/
 .footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgb(108 186 205);
-    height: 80px;
+    background-color: rgb(33, 33, 33);
 }
 
 .social-media{
@@ -60,9 +65,16 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: black;
     text-decoration: none;
+    color: white;
     font-size: 20px;
-    padding: 15px;
-    margin: 15px;
+    padding: 25px;
 }
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
