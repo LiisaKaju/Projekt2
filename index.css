@@ -2,7 +2,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(https://preview.redd.it/2d5u2gwhe2wc1.png?auto=webp&s=871f79cd16b7c8e0e36d6c11e350e6d317ef41f2);
+    background-image: url(images/background-imagine-dragons.png);
     margin: 0;
     padding: 0;
     }
@@ -14,22 +14,22 @@ body {
     width: 100%;
     top: 0;
     justify-content: space-between;
-    background-color: rgba(210, 98, 91, 0.9);
-
+    background-color: rgba(210, 98, 91);
+    z-index: 2;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    height: 80px;
-    margin-left: 40px;
+    height: 5rem;
+    margin-left: 2.5rem;
 }
 
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 
 .menu a{
@@ -37,19 +37,71 @@ body {
     align-items: center;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    padding: 25px;
+    font-size: 1.25rem;
+    padding: 1.6rem;
 }
 
 .menu a:hover{
     background-color: rgba(250, 235, 215, 0.093);
 }
-
 /*main*/
+main{
+    margin-top: 5rem;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.image-text{
+    display: flex;
+    position: absolute;
+    flex-wrap: nowrap;
+    top: 12rem;
+    left: 35%;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.playlist{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6rem 0 6rem;
+}
+
+.playlist iframe{
+    background-color: white;
+    border-radius: 0.6rem;
+    padding: 3rem;
+}
+
+.events{
+    display: flex;
+    justify-content: center;
+    background-color:#1e2122;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.event-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    color: white;
+    align-items: start;
+    line-height: 0.4rem;
+
+}
+
+.events p{
+    font-size: 1.3rem;
+}
 
 /*footer*/
 .footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgb(33, 33, 33);
@@ -67,14 +119,12 @@ body {
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    padding: 25px;
+    font-size: 1.25rem;
+    padding: 1.6rem;
 }
 
-
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 0.7rem;
+    font-size: 1.9rem;
     text-align: center;
   }
-

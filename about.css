@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     }
-
+/*header*/
 .navigation{
     position: fixed;
     display: flex;
@@ -14,7 +14,7 @@ body {
     width: 100%;
     top: 0;
     justify-content: space-between;
-    background-color: rgba(210, 98, 91, 0.9);
+    background-color: rgba(210, 98, 91);
 }
 
 .logo{
@@ -47,7 +47,7 @@ body {
 /*main*/
 
 main{
-    margin-top: 12.5rem;
+    margin-top: 5rem;
 }
 
 .about-heading{
@@ -155,8 +155,7 @@ iframe:hover {
 }
 
 .fa {
-    padding: 1.25rem;
+    padding: 0.7rem;
     font-size: 1.9rem;
     text-align: center;
   }
-
