@@ -2,6 +2,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: url(images/background-imagine-dragons.png);
     margin: 0;
     padding: 0;
     }
@@ -50,27 +51,65 @@ main{
 }
 
 .history{
+    padding: 30px;
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    align-items: center;
+    justify-content: space-around;
     color: white;
 }
 
-.history-container{
-    justify-content: center;
+
+.history-text-box{
+    background-color: rgb(33, 33, 33);
+    padding: 25px;
     width: 400px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-.text-box{
+.history-image{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.awards{
+    Padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.award-image{
+    height: 400px;
+    border-radius: 10px;
+}
+
+.awards-text-box{
     background-color: rgb(33, 33, 33);
- 
+    padding: 25px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.albums{
+    Padding-top: 100px;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    width: auto;
+}
+
+.album{
+    height: 200px;
+    width: 200px;
+    column-gap: 10px;
 }
 
 /*footer*/
 .footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgb(33, 33, 33);
