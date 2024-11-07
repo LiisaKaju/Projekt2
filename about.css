@@ -2,7 +2,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(images/background-imagine-dragons.png);
+    background-image: url(./resources/img/background-imagine-dragons.png);
     margin: 0;
     padding: 0;
     }
