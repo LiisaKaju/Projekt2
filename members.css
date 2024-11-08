@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Navigation */
+/* headrer */
 .navigation{
     position: fixed;
     display: flex;
@@ -16,21 +16,22 @@ body {
     width: 100%;
     top: 0;
     justify-content: space-between;
-    background-color: rgba(210, 98, 91, 0.9);
+    background-color: rgba(210, 98, 91);
+    z-index: 1000;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    height: 80px;
-    margin-left: 40px;
+    height: 5rem;
+    margin-left: 2.5rem;
 }
 
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 
 .menu a{
@@ -38,37 +39,12 @@ body {
     align-items: center;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    padding: 25px;
+    font-size: 1.25rem;
+    padding: 1.6rem;
 }
 
 .menu a:hover{
     background-color: rgba(250, 235, 215, 0.093);
-}
-
-/*Footer*/
-.footer {
-    width: 100%;
-    background-color: rgb(33, 33, 33);
-    overflow-x: hidden;
-}
-
-.social-media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-
-.social-media a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    padding: 15px;
-    white-space: nowrap;
 }
 
 /* Main content */
@@ -179,3 +155,33 @@ main {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
 }
+
+/*Footer*/
+.footer {
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    overflow-x: hidden;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.6rem;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1.6rem;
+}
+
+.fa {
+    padding: 0.7rem;
+    font-size: 1.9rem;
+    text-align: center;
+  }
