@@ -12,4 +12,5 @@ Projekt bändi jaoks, meie valisime Imagine Dragonsi.
 
 ![Wiki](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white) - [LINK](https://github.com/LiisaKaju/Projekt2/wiki)
 
-Live version - [LINK](https://imaginedragons.tak22kaalma.itmajakas.ee/)
+
+### Live version - [LINK](https://imaginedragons.tak22kaalma.itmajakas.ee/)
