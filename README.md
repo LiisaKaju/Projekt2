@@ -1,6 +1,4 @@
-# Projekt2
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75656&background=FFFFFF00&center=true&width=435&lines=The+Imagine+Dragons)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75656&background=FFFFFF00&center=true&width=435&lines=Grupp+3;The+Imagine+Dragons)](https://git.io/typing-svg)
 
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
 
