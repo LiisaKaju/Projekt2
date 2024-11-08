@@ -17,6 +17,7 @@ body {
     top: 0;
     justify-content: space-between;
     background-color: rgba(210, 98, 91, 0.9);
+    z-index: 1000;
 }
 
 .logo{
