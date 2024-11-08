@@ -16,6 +16,7 @@ body {
     top: 0;
     justify-content: space-between;
     background-color: rgba(210, 98, 91);
+    z-index: 1000;
 }
 
 .logo{
@@ -75,11 +76,23 @@ main{
     width: 25rem;
     border-radius: 0.6rem;
     font-size: 1.25rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.history-text-box:hover{
+    transform: translateY(-5px);
 }
 
 .history-image{
     width: 37.5rem;
     border-radius: 0.6rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.history-image:hover{
+    transform: scale(1.02);
 }
 
 .awards{
