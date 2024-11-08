@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-
 /*header*/
 .navigation{
     position: absolute;
@@ -58,6 +57,7 @@ body {
 .menu a:hover{
     background-color: rgba(250, 235, 215, 0.093);
 }
+
 /*main*/
 .main-image-container {
     position: relative;
@@ -108,6 +108,7 @@ body {
         font-size: clamp(2.5rem, 5vw, 4rem);
     }
 }
+
 .playlist {
     display: flex;
     justify-content: center;
