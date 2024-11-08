@@ -16,6 +16,7 @@ body {
     top: 0;
     justify-content: space-between;
     background-color: rgba(210, 98, 91);
+    z-index: 1000;
 }
 
 .logo{
@@ -53,10 +54,58 @@ body {
     font-size: 50px;
 }
 
-.video-container {
+.playlist {
     display: flex;
     justify-content: center;
-    margin: 20px 0 ;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgba(33, 33, 33, 0.95);
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-title {
+    color: #D2625B;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.playlist iframe {
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.playlist iframe:hover {
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+    .playlist-container {
+        padding: 1rem;
+    }
+    
+    .playlist-title {
+        font-size: 1.5rem;
+    }
+    
+    .playlist iframe {
+        width: 100%;
+        height: 250px;
+    }
 }
 
 .events {
@@ -68,16 +117,24 @@ body {
     margin-bottom: 3rem;
 }
 
-    .event-container {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 48px;
-        color: #FFFFFF;
-        padding: 20px;
-        border-radius: 10px;
-    }
+.event-container {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.event-container p {
+    transition: transform 0.3s ease;
+}
+
+.event-container p:hover {
+    transform: translateX(10px);
+}
 
 
 /*Footer*/
@@ -92,7 +149,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .social-media a {
@@ -100,10 +157,15 @@ body {
     align-items: center;
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    padding: 25px;
-    white-space: nowrap;
+    font-size: 1.25rem;
+    padding: 1.6rem;
 }
+
+.fa {
+    padding: 0.7rem;
+    font-size: 1.9rem;
+    text-align: center;
+  }
 
 /*main*/
 .main h1{    
