@@ -1,5 +1,9 @@
 # Projekt2
 
+## Seletus
+
+Projekt bändi jaoks, meie valisime Imagine Dragonsi.
+
 ## Lingid:
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) - [LINK](https://www.figma.com/design/uq7KXEPAwATzd2nt9nstWr/Imagine-Dragons?node-id=0-1&node-type=canvas&t=9iqNsNurIsJQHXTD-0)
